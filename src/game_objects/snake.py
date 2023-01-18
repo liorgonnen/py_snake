@@ -1,9 +1,9 @@
 from collections import deque
 import pygame
 from pygame import Surface
-from const import *
-from game_objects.game_object import GameObject
-from utils import add
+from src.const import *
+from src.game_objects.game_object import GameObject
+from src.utils import add
 
 
 class Snake(GameObject):

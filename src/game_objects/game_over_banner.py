@@ -1,8 +1,8 @@
 import pygame.font
 from pygame.surface import Surface
 
-from const import *
-from game_objects.game_object import GameObject
+from src.const import *
+from src.game_objects.game_object import GameObject
 
 
 class GameOverBanner(GameObject):
